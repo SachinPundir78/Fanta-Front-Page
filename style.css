@@ -1,0 +1,518 @@
+@font-face {
+  font-family: Product Sans B;
+  src: url(/Fonts/Product\ Sans\ Bold.ttf);
+}
+
+@font-face {
+  font-family: Product Sans ;
+  src: url(/Fonts/Product\ Sans\ Regular.ttf);
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Product Sans ;
+  font-weight: 500;
+  font-style: normal;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: black; */
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.d-flex a {
+  font-size: 1.5vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+.d-flex img{
+  width: 6vw;
+}
+
+.d-flex-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+  justify-content: space-between !important;
+  padding: 0vw 10vw;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #000;
+  z-index: 999999;
+}
+
+.cntr-nav {
+  width: 50%;
+  gap: 3vw;
+}
+
+.cntr-nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.ri-menu-line {
+  font-size: 1.5vw;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+}
+
+.section1 {
+  background-image: url(./Assets/magicpattern-mesh-gradient-1722524507236.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.section1 h1 {
+  font-size: 22vw;
+  font-family:  Product Sans B;
+  color: #fff;
+}
+
+.section1 img {
+  position: absolute;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#leaf1 {
+  top: 10%;
+  left: 0%;
+  transform: rotate(60deg);
+  position: absolute;
+  width: 18%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+#fanta {
+  width: 35vw;
+}
+
+#orange {
+  top: 65%;
+  left: 48%;
+  width: 20vw;
+}
+
+#leaf2 {
+  top: 55%;
+  left: 75%;
+  width: 10vw;
+}
+
+#leaf3{
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  width: 20%;
+}
+
+
+#orange2 {
+  top: 10%;
+  left: 35%;
+  width: 15vw;
+}
+
+/* -------section-2 */
+.section2{
+  background:#4d231c;
+}
+.section2 .lft {
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.section2 .rght {
+  width: 50%;
+  height: 100%;
+  align-items: start;
+  gap: 5vh;
+  padding: 0vw 10vw 0vw 0vw;
+  /* background-color: orange; */
+}
+
+.magicpattern {
+  width: 70%;
+  height: 70%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M835.5 673.5Q700 847 508 833T202 659.5Q88 500 217.5 368T499 237.5q152 1.5 312 132t24.5 304Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%23f77f45%22 d=%22M835.5 673.5Q700 847 508 833T202 659.5Q88 500 217.5 368T499 237.5q152 1.5 312 132t24.5 304Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.mainHeading {
+  font-size: 3vw;
+  font-family: Product Sans B;
+  color: rgb(252, 145, 13);
+}
+
+.mainP {
+  font-size: 1vw;
+  color: #919191;
+  font-weight: 400;
+}
+
+.section2 .rght button {
+  padding: 1vw 2vw;
+  background-color: rgb(252, 145, 13);
+  border: 1px solid rgb(232, 3, 3);
+  border-radius: 50px;
+  color: #fff;
+}
+
+/* Section-3 */
+
+.section3 {
+  gap: 5vw;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #4d231c, #7a3c33, #a06f4d);
+}
+
+.section3 .card {
+  width: 25vw;
+  height: 70vh;
+  background-color: #fff2e5;
+  padding: 1vw;
+  gap: 2vh;
+  border-radius: 20px;
+}
+
+.card:nth-child(1){ 
+  background: linear-gradient(transparent, #ff3366, #ff6699, #ff99cc);
+  transition: all 0.3s ease;
+  color: rgba(255, 255, 255, 0.825);
+} 
+.card:nth-child(2){ 
+  background: linear-gradient(transparent, #ff5733, #ff704d, #ff9966);
+  transition: all 0.3s ease;
+  color: rgba(255, 255, 255, 0.825);
+} 
+.card:nth-child(3){ 
+  background: linear-gradient(transparent, rgba(167, 244, 13, 0.918));
+  transition: all 0.3s ease;
+  color: rgba(255, 255, 255, 0.825);
+} 
+
+.img-div {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  /* background-color: rebeccapurple; */
+}
+
+.img-div img {
+  position: absolute;
+  width: 100%;
+}
+
+.card .mainHeading {
+  font-size: 3vw;
+  font-family: Product Sans B;
+  color: #fff;
+}
+
+.card:nth-child(1) button {
+  background-color: rgb(239, 10, 86); /* Change to desired color */
+  color: #fff;
+  font-size: 1vw;
+  padding: 1vw 2vw;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  border: 1px solid #e01a4f;
+}
+
+/* Button for the second card */
+.card:nth-child(2) button {
+  background-color: rgb(248, 105, 10); /* Change to desired color */
+  color: #fff;
+  font-size: 1vw;
+  padding: 1vw 2vw;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  border: 1px solid #e65d0e;
+}
+
+/* Button for the third card */
+.card:nth-child(3) button {
+  background-color: rgb(118, 239, 38); /* Change to desired color */
+  color: #fff;
+  font-size: 1vw;
+  padding: 1vw 2vw;
+  border-radius: 50px;
+  border: 1px solid #14dd09;
+  /* border: none; */
+}
+
+
+#pineapple {
+  width: 12vw;
+}
+#yellow {
+  width: 12vw;
+}
+
+#pineapplecut {
+  width: 30vw;
+}
+#orangefruit{
+  width: 22vw;
+}
+#resp-orange {
+  width: 50vw;
+}
+#resp-fanta {
+  width: 90vw;
+}
+#resp-orange,
+#resp-fanta {
+  display: none;
+}
+
+.footer{
+  width: 100%;
+  height: 90vh;
+  background-color: #000;
+  padding: 50px;
+  color: #fff;
+  position: relative;
+}
+
+.footer-top {
+  padding: 10px 20px;
+  padding-bottom: 20px;
+}
+
+.footer-top img{
+  width: 25vw;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  flex: 1 1 30%;
+  margin: 10px;
+}
+
+.footer-section h4 {
+  font-size: 1.4em;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #f00;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.footer-bottom p {
+  font-size: 1em;
+  color: #aaa;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+  color: #f00;
+}
+
+@media (max-width: 799px) {
+  .d-flex img{
+    width: 9vw;
+  }
+  .cntr-nav {
+    display: none;
+  }
+  .ri-menu-line {
+    font-size: 5vw;
+  }
+  .section1 h1 {
+    font-size: 32vw;
+  }
+  #fanta {
+    width: 95vw;
+  }
+  #orange2 {
+    top: 15%;
+    left: 10%;
+    width: 39vw;
+  }
+  #leaf1 {
+    top: 14%;
+    left: 67%;
+    width: 19vw;
+  }
+  #orange {
+    top: 58%;
+    left: 47%;
+    width: 42vw;
+  }
+  #leaf2 {
+    top: 76%;
+    left: 12%;
+    width: 16vw;
+  }
+  .section2 {
+    flex-direction: column;
+    height: 210vh;
+  }
+  .magicpattern {
+    width: 100%;
+    height: 40%;
+  }
+  .section2 .lft {
+    width: 100%;
+    height: 35%;
+  }
+  .section2 .rght {
+    width: 100%;
+    padding: 5vw;
+    height: 55%;
+  }
+  .mainHeading {
+    font-size: 6vw;
+  }
+  .mainP {
+    font-size: 4vw;
+  }
+  .section2 .rght button {
+    padding: 3vw 10vw;
+  }
+  .section3 {
+    flex-direction: column;
+    height: 210vh;
+  }
+  .section3 .card {
+    width: 80vw;
+    padding: 5vw;
+  }
+  .card button {
+    padding: 5vw 10vw;
+  }
+  #pineapple {
+    width: 37vw;
+  }
+  #pineapplecut,
+  #orangefruit {
+    width: 75vw;
+  }
+  #pineapplecut
+   {
+    width: 75vw;
+  }
+  #orangefruit{
+    width: 55vw;
+  }
+  #yellow {
+    width: 30vw;
+  }
+  #resp-orange,
+  #resp-fanta {
+    display: initial;
+  }
+}
