@@ -1,0 +1,14 @@
+{
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "style.css", "use": "@vercel/static" },
+    { "src": "script.js", "use": "@vercel/static" },
+    { "src": "Assets/*", "use": "@vercel/static" },
+    { "src": "Fonts/*", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/Assets/(.*)", "dest": "/Assets/$1" },
+    { "src": "/Fonts/(.*)", "dest": "/Fonts/$1" },
+    { "src": "/(.*)", "dest": "$1" }
+  ]
+}
